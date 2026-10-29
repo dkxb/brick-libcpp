@@ -55,8 +55,8 @@ loopback address keeps the server local. Without `--remote`, this environment
 resolved `localhost` to IPv6 only and refused IPv4 connections. See the
 [Slidev CLI options](https://sli.dev/builtin/cli).
 
-Press `p` for presenter mode, which shows the speaker notes and timer. The deck
-uses a 1280×720 stage, local fonts, and native HTML/CSS diagrams; it has no
+Press `p` for presenter mode and its timer. The deck has no presenter notes.
+It uses a 1280×720 stage, local fonts, and native HTML/CSS diagrams; it has no
 external image assets.
 
 ```sh
@@ -151,7 +151,7 @@ version and DOMPurify 3.4.17 sanitizing HTML.
 The outline and deck follow the
 [slide-design skill](https://github.com/hunkim/slide-skill/blob/main/SKILL.md)
 and the [official Slidev skill](https://sli.dev/guide/work-with-ai#installation).
-The design priority is one claim per slide with details in speaker notes.
+The design priority is one claim per slide.
 Slidev's own project/build format takes precedence over the design skill's
 generic recommendation to package an HTML deck as one standalone file.
 
